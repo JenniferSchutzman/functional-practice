@@ -1,5 +1,7 @@
 import React from "react";
 
+
+
 // Pure functions = only input in, only input out 
 
 // side effects are when it is doing something to the outside world other than that one input one output structure
@@ -135,3 +137,5 @@ function showTruthTable(operator) {
 }
 // doesn't do anything besides return its output
 // any other effec tit has on the pgroam or world is a side effect (i.e. the console.log)
+
+// *** to research: how to setState() without making it impure in the useEffect()
